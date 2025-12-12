@@ -45,7 +45,7 @@ class InterviewSystem {
     private void connectDatabase() {
         String url = "jdbc:mysql://127.0.0.1:3306/interview_db";
         String user = "root";
-        String pass = "Aman12345"; // your DB password
+        String pass = " "; // your DB password
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             conn = DriverManager.getConnection(url, user, pass);
